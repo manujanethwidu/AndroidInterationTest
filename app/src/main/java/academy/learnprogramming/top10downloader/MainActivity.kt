@@ -12,6 +12,7 @@ import java.net.URL
 import kotlin.properties.Delegates
 
 class FeedEntry {
+    var gitComment:String="Master"
     var name: String = ""
     var artist: String = ""
     var releaseDate: String = ""
